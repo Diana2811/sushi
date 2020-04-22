@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #444;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+section {
+    padding: 15px 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    text-transform: uppercase;   
+}
+h2 span{
+    color:#ff0000;
+}
+.slogan{
+    color: #b5b4b4;
+    font-size: 24px;
+}
+.phone{
+    text-align: center;
+}
+.button{
+    background-color: #ff0000;
+    color:#fff;
+    display: block;
+    text-align: center; 
+    padding: 7px 0;
+    box-shadow: 3px 0 5px rgba(255, 0, 0, 0.73);
+}
+.banner{
+    height: 500px;
+    background-image: url(image/slide-410f90b8-b5df-4b71-a756-0c413a94916f.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.action .container{
+    border-bottom: 1px solid #c9c9c9;
+}
+.six div{
+    color: #a04141;
+}
+.seven{
+    background-color: #a89ea8
+}
+.eight{
+    color: #ff0000;
+}
+.nine{
+    background-color: aquamarine;
+}
+.ten{color: blue;}
+.footer{text-align: center;}
+@media screen and (max-width:992px){
+    .banner {
+        height: 400px;
+    }
+}
+@media screen and (max-width:768px){
+    .banner {
+        height: 250px;
+    }
+}
